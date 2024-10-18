@@ -10,7 +10,7 @@ function createConsolePanel(context, panel, outputChannel) {
         panel = vscode.window.createWebviewPanel(
             'tf2Console',
             'TF2 Console',
-            vscode.ViewColumn.Beside,
+            vscode.ViewColumn.One,
             { enableScripts: true, retainContextWhenHidden: true }
         );
 
