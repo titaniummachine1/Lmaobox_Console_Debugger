@@ -1,0 +1,25 @@
+body {
+    font-family: Consolas, "Courier New", monospace;
+    background-color: #000; /* Red background will be applied via JS if not connected */
+    color: white;
+    padding: 10px;
+}
+
+#consoleOutput {
+    width: 100%;
+    height: 300px;
+    background-color: #222;
+    color: white;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+    border: 1px solid #555;
+}
+
+#commandInput {
+    width: 100%;
+    background-color: #111;
+    color: white;
+    padding: 5px;
+    border: 1px solid #555;
+    font-family: Consolas, "Courier New", monospace;
+}

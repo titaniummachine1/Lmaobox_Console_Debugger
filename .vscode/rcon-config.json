@@ -1,0 +1,15 @@
+{
+  "rconPassword": "123456789",
+  "rconIp": "0.0.0.0",
+  "rconPort": 27015,
+  "commandHistory": [],
+  "commandSuggestions": [
+    "status",
+    "kick",
+    "changelevel",
+    "sv_cheats",
+    "tf_bot_add",
+    "exec",
+    "mp_restartgame"
+  ]
+}
