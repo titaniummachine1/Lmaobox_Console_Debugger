@@ -29,11 +29,18 @@ function createConsolePanel(context, panel, outputChannel) {
     }
 }
 
-function handleWebviewMessages(panel, outputChannel) {
+async function handleWebviewMessages(panel, outputChannel) {
     panel.webview.onDidReceiveMessage(async (message) => {
-        if (message.command === 'sendCommand') {
-            outputChannel.appendLine(`Command received from webview: ${message.text}`);
-            await sendCommandToRcon(message.text, panel, outputChannel);
+        try {
+            if (message.command === 'sendCommand') {
+                const { text } = message;
+                outputChannel.appendLine(`Received command from webview: ${text}`);
+                
+                // Send command to RCON and handle response
+                await sendCommandToRcon(text, panel, outputChannel);
+            }
+        } catch (error) {
+            outputChannel.appendLine(`Error processing webview message: ${error.message}`);
         }
     });
 }

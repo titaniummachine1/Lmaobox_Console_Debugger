@@ -5,7 +5,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/titaniummachine1/Lmaobox_Console_Debugger)](https://github.com/titaniummachine1/Lmaobox_Console_Debugger/issues)
 [![GitHub license](https://img.shields.io/github/license/titaniummachine1/Lmaobox_Console_Debugger)](https://github.com/titaniummachine1/Lmaobox_Console_Debugger/blob/main/LICENSE)
 
-> VS Code Extension to manage TF2 servers via RCON commands.
+> VS Code Extension to manage TF2 servers via RCON commands..
 
 ---
 
