@@ -33,5 +33,9 @@
   },
   "dependencies": {
     "rcon-client": "^4.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/titaniummachine1/Lmaobox_Console_Debugger"
   }
 }
